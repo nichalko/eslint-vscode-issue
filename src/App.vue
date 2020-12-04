@@ -18,7 +18,7 @@ function myFunctionWithWrongIndentation(myLongVariableName) {
   console.log("wrong indentation is here");
   
   
-  
+  console.log(myLongVariableName);
             console.log("so is here");
 
 
@@ -26,7 +26,7 @@ function myFunctionWithWrongIndentation(myLongVariableName) {
   }
 }
 
-myFunctionWithWrongIndentation();
+myFunctionWithWrongIndentation(myLongVariableName);
 
 export default {
   name: "App",
